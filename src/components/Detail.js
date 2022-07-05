@@ -27,11 +27,11 @@ function Detail() {
         </GroupWatchButton>
       </Controls>
       <SubTitle>
-        hello hello
+        2018 ● 7m ● Family, Fantasy, Kids, Animation
         <Description>
-          In general, React Router v5.1 (and v6) favors elements over components
-          (or "element types"). There are a few reasons for this, but we'll
-          discuss more further down when we discuss v6's API.
+          A Chinese mom who's sad when her grown son leaves home gets another
+          chance at motherhood when one of her dumplings springs to life. But
+          she finds that nothing stays cute and small small forever.
         </Description>
       </SubTitle>
     </Container>
@@ -67,6 +67,7 @@ const ImageTitle = styled.div`
   min-height: 170px;
   width: 35vw;
   min-width: 200px;
+  margin-top: 60px;
 
   img {
     height: 100%;
@@ -139,4 +140,5 @@ const Description = styled.div`
   font-size: 20px;
   margin-top: 16px;
   color: rgb(249, 249, 249);
+  max-width: 760px;
 `;
